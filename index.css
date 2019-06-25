@@ -1,12 +1,19 @@
-.container {
-  height: 100%;
-  width: 100%;
-  /* grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px; */
+table{
+  border: 1px solid #DBDBDB;
+  border-right: 0px;
 }
-.square {
-  display: flex;
-  flex-flow: row;
+tbody{
+  display: table-row-group;/* */
+  vertical-align: middle;
+  border-color: inherit;
+}
+td{
+  width: 47px;
+  height: 49px;
+  border-bottom: 1px solid #DBDBDB;
+  border-right: 1px solid #DBDBDB;
+  line-height: 30px;
+  font-size: 250%;
+  text-align: center;
+  vertical-align: middl
 }
