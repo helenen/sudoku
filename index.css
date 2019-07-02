@@ -15,5 +15,10 @@ td{
   line-height: 30px;
   font-size: 250%;
   text-align: center;
-  vertical-align: middl
+  vertical-align: middle;
+}
+input{
+  border: none;
+  text-align: center;
+  background-color: aquamarine;
 }
